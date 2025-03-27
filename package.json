@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/shaack/cm-pgn#readme",
   "devDependencies": {
+    "esbuild": "0.25.1",
     "pegjs": "^0.10.0",
     "teevi": "^2.2.4"
   },
