@@ -2,7 +2,8 @@
   "name": "cm-pgn",
   "version": "3.3.3",
   "description": "Module for parsing and rendering of PGNs (Portable Game Notation)",
-  "main": "src/Pgn.js",
+  "source": "src/Pgn.js",
+  "main": "dist/cm-pgn.js",
   "type": "module",
   "scripts": {
     "test": "echo 'request test/index.html for testing'"
@@ -25,7 +26,6 @@
   },
   "homepage": "https://github.com/shaack/cm-pgn#readme",
   "devDependencies": {
-    "esbuild": "0.25.1",
     "pegjs": "^0.10.0",
     "teevi": "^2.2.4"
   },
