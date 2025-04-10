@@ -1,16 +1,7 @@
 {
-  "name": "cm-pgn",
-  "version": "3.3.3",
+  "name": "@mateola/cm-pgn",
+  "version": "3.3.4",
   "description": "Module for parsing and rendering of PGNs (Portable Game Notation)",
-  "main": "src/Pgn.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo 'request test/index.html for testing'"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shaack/cm-pgn.git"
-  },
   "keywords": [
     "ES6",
     "ECMAScript 6",
@@ -18,17 +9,29 @@
     "PGN",
     "parser"
   ],
-  "author": "shaack",
-  "license": "MIT",
+  "homepage": "https://github.com/mateola/cm-pgn#readme",
   "bugs": {
-    "url": "https://github.com/shaack/cm-pgn/issues"
+    "url": "https://github.com/mateola/cm-pgn/issues"
   },
-  "homepage": "https://github.com/shaack/cm-pgn#readme",
-  "devDependencies": {
-    "pegjs": "^0.10.0",
-    "teevi": "^2.2.4"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateola/cm-pgn.git"
+  },
+  "license": "MIT",
+  "author": "shaack",
+  "type": "module",
+  "main": "src/Pgn.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo 'request test/index.html for testing'"
   },
   "dependencies": {
     "chess.js": "^1.2.0"
+  },
+  "devDependencies": {
+    "pegjs": "^0.10.0",
+    "teevi": "^2.2.4"
   }
 }
