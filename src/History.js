@@ -90,7 +90,7 @@ export class History {
         move.fen = chess.fen()
         move.uci = move.from + move.to + (move.promotion ? move.promotion : "")
         move.variations = []
-        if (chess.gameOver()) {
+        if (chess.isGameOver()) {
             move.gameOver = true
             if (chess.isDraw()) {
                 move.inDraw = true
