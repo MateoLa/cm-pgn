@@ -20,12 +20,14 @@
   "license": "MIT",
   "author": "shaack",
   "type": "module",
-  "main": "src/Pgn.js",
+  "source": "src/Pgn.js",
+  "main": "dist/cm-pgn.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo 'request test/index.html for testing'"
+    "test": "echo 'request test/index.html for testing'",
+    "build": "parcel build src/Pgn.js --dist-dir dist"
   },
   "dependencies": {
     "chess.js": "^1.2.0"
